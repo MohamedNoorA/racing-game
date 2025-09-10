@@ -14,7 +14,7 @@ The game also saves the highest score in `game_data/high_score.json`.
 
 ## Demo / Preview
 
-> You can add a GIF or screenshot here (place files inside `images/` and reference them in the README).
+> Add a GIF or screenshot here (place files inside `images/` and reference them in the README).
 
 ---
 
@@ -35,26 +35,26 @@ The game also saves the highest score in `game_data/high_score.json`.
 
 ---
 
-## Quick start (Windows PowerShell)
+## Installation & Setup
 
-1. Open PowerShell and navigate to the project folder:
-
-   ```powershell
-   cd "C:\Users\mohar\game"
-(Optional but recommended) Create and activate a virtual environment:
-
-powershell
+### 1. Clone the repository
+```bash
+git clone https://github.com/MohamedNoorA/racing-game.git
+cd racing-game
+2. (Optional but recommended) Create and activate a virtual environment
+bash
 Copy code
 python -m venv venv
+# On Windows PowerShell:
 .\venv\Scripts\Activate.ps1
-Install requirements:
-
-powershell
+# On macOS/Linux:
+source venv/bin/activate
+3. Install requirements
+bash
 Copy code
 pip install -r requirements.txt
-Run the game:
-
-powershell
+4. Run the game
+bash
 Copy code
 python racing_game.py
 Controls
@@ -71,7 +71,7 @@ Q — Quit
 Files and structure
 bash
 Copy code
-game/
+racing-game/
 ├─ racing_game.py        # Main game loop and rendering
 ├─ game_manager.py       # Game state, scoring, and persistence
 ├─ requirements.txt      # pip dependencies (pygame)
