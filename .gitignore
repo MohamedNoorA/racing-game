@@ -1,0 +1,14 @@
+@"
+# Virtual env
+venv/
+# Python cache
+__pycache__/
+*.py[cod]
+# VS Code settings
+.vscode/
+# Runtime data
+game_data/
+# OS files
+.DS_Store
+Thumbs.db
+"@ > .gitignore
